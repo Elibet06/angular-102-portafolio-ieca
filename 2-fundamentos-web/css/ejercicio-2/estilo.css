@@ -43,7 +43,7 @@ main {
 }
 
 #bienvenida {
-    background-color: #ffd700;
+    background-color: #000000;
 }
 
 .seccion {
@@ -51,11 +51,15 @@ main {
     padding: 10px;
 }
 
+.amarillo{
+    background-color: rgb(221, 218, 64);
+    color: black;
+}
+
 .rojo {
     background-color: red;
     color: white;
 }
-
 .verde {
     background-color: green;
     color: white;
