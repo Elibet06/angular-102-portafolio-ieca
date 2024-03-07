@@ -7,35 +7,47 @@
     <title>Botón de Navegación</title>
 </head>
 
-<body>
-
+<body style="font-family:Arial">
     <header>
         <h1>Sitio Web</h1>
     </header>
-
     <nav>
         <ul>
             <li>
                 <!-- Completa la navegación -->
-                <a href="#">Acerca de</a>
+                <a href="acerca.html">Acerca de</a>
             </li>
         </ul>
     </nav>
-
     <main>
         <h2>Formulario</h2>
         <!-- Completa el fomulario -->
-        <form>
-            <label for="nombre">Nombre:</label>
+        <form action="acerca.html">
+            <label for="nombre">Nombre: </label>
             <input type="text" id="nombre" name="nombre" required>
-        
-            <label for="apellido">Apellido:</label>
+        	<br>
+            <label for="apellido">Apellido: </label>
             <input type="text" id="apellido" name="apellido" required>
-
+			<br>
             <!-- Agrega los inputs faltantes -->
+            <label for="correo">Correo electronico: </label>
+            <input type="email" id="correo" name="correo" required>
+        	<br>
+            <label for="contraseña">Contraseña: </label>
+            <input type="password" id="contra" name="contra" required>
+        	<br>
+            <label for="nacimiento">Fecha de Nacimiento: </label>
+            <input type="date" id="fecha" name="fecha" required>
+        	<br>
+            <label for="telefono">Teléfono: </label>
+            <input type="tel" id="tel" name="tel" required>
+        	<br>
+            <label for="direccion">Dirección: </label>
+            <input type="textarea" id="dire" name="dire" required>
+        	<br>
+            <br>
+            <input type="submit" value="Registrar">
         </form>
     </main>
-
 </body>
-
 </html>
